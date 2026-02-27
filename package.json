@@ -1,0 +1,19 @@
+{
+  "name": "octus-lexer",
+  "version": "1.0.0",
+  "description": "A minimal lexical analyzer written in TypeScript as part of a compiler construction study project.",
+  "keywords": [
+    "lexer"
+  ],
+  "license": "ISC",
+  "author": "Luiz Otavio <luizotaviomtbs@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
